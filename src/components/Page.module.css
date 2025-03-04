@@ -45,13 +45,13 @@
   display: block;
   width: 23px;
   height: 23px;
-  filter: grayscale(1);
+  filter: invert(1) brightness(0.3);
   transition: all 0.1s;
 }
 
 .socials i:hover {
   transform: translateY(-5px) scale(1.1);
-  filter: grayscale(0);
+  filter: invert(1) brightness(0);
 }
 
 .ig {
@@ -67,5 +67,5 @@
 }
 
 .mail {
-  background: url(../assets/m-icon.svg);
+  background: url(../assets/m-icon.png);
 }
