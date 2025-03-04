@@ -15,6 +15,10 @@ export default function Page() {
             <a target="_blank" href="/#"> <i className={Styles.fb} /> </a>
             <a target="_blank" href="/#"> <i className={Styles.mail} /> </a>
         </div>
+        <footer className={Styles.footer}>
+          <p>The website is currently under construction.</p>
+          <p style={{fontSize: '0.9rem'}}>&#169; 2025 RomeVille</p>
+        </footer>
     </section>
   )
 }
