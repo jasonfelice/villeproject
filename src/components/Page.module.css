@@ -19,6 +19,17 @@
   max-width: 170px;
   max-height: 140px;
   width: 40vw;
+  animation: wings 0.7s ease-out infinite alternate-reverse;
+}
+
+@keyframes wings {
+  from {
+    transform: rotateY(0deg);
+  }
+
+  to {
+    transform: rotateY(30deg);
+  }
 }
 
 .socials {
