@@ -4,7 +4,23 @@
   align-items: center;
   justify-content: center;
   height: 100vh;
-  background: linear-gradient(90deg, rgba(183,239,217,1) 18%, rgba(143,200,240,1) 68%);
+  background: linear-gradient(300deg, rgba(255,246,216,1) 0%, rgba(139,232,221,1) 12%, rgba(133,201,230,1) 69%);
+  background-size: 400% 400%;
+  animation: gradient 5s infinite;
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0 50%;
+  }
+    
+  50% {
+    background-position: 100% 50%;
+  }
+    
+  100% {
+    background-position: 0 50%;
+  }
 }
 
 .logo_wrapper {
@@ -45,7 +61,7 @@
   display: block;
   width: 23px;
   height: 23px;
-  filter: invert(1) brightness(0.3);
+  filter: invert(1) brightness(0.45);
   transition: all 0.1s;
 }
 
@@ -56,16 +72,30 @@
 
 .ig {
   background: url(../assets/ig-icon.svg);
+  animation: bounce 0.3s ease-in-out alternate 0.3s 2 forwards;
 }
 
 .fb {
   background: url(../assets/fb-icon.svg);
+  animation: bounce 0.3s ease-in-out alternate 0.7s 2 forwards;
 }
 
 .wa {
   background: url(../assets/w-icon.svg);
+  animation: bounce 0.3s ease-in-out alternate 0.5s 2 forwards;
 }
 
 .mail {
   background: url(../assets/m-icon.png);
+  animation: bounce 0.3s ease-in-out alternate 0.9s 2 forwards;
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0px);
+  }
+
+  100% {
+    transform: translateY(-5px);
+  }
 }

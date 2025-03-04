@@ -7,7 +7,7 @@ export default function Page() {
     <section className={Styles.main_wrapper}>
         <div className={Styles.logo_wrapper}>
           <img className={`${Styles.logo}, noselect`} draggable={false} src={logo} alt="RomeVille Logo" />
-          <span className="noselect">RomeVille</span>
+          <p className="noselect">RomeVille</p>
         </div>
         <div className={Styles.socials}>
             <a target="_blank" href="/#"> <i className={Styles.ig} /> </a>
