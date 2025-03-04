@@ -1,12 +1,14 @@
 .main_wrapper {
   display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
   height: 100vh;
   background: linear-gradient(90deg, rgba(183,239,217,1) 18%, rgba(143,200,240,1) 68%);
 }
 
 .logo_wrapper {
   color: #fff;
-  margin: auto;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -17,4 +19,34 @@
   max-width: 170px;
   max-height: 140px;
   width: 40vw;
+}
+
+.socials {
+  display: flex;
+  align-items: center;
+  gap: 10px
+}
+
+.socials i {
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: block;
+  width: 25px;
+  height: 25px;
+}
+
+.ig {
+  background: url(../assets/ig-icon.svg);
+}
+
+.fb {
+  background: url(../assets/fb-icon.svg);
+}
+
+.wa {
+  background: url(../assets/w-icon.svg);
+}
+
+.mail {
+  background: url(../assets/m-icon.svg);
 }

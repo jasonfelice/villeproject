@@ -8,7 +8,13 @@ export default function Page() {
         <div className={Styles.logo_wrapper}>
           <img src={logo} alt="RomeVille Logo" />
           <span>RomeVille</span>
-        </div>    
+        </div>
+        <div className={Styles.socials}>
+            <a href="/#"> <i className={Styles.ig} /> </a>
+            <a href="/#"> <i className={Styles.fb} /> </a>
+            <a href="/#"> <i className={Styles.wa} /> </a>
+            <a href="/#"> <i className={Styles.mail} /> </a>
+        </div>
     </section>
   )
 }
