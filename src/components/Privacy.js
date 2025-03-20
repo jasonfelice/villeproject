@@ -109,7 +109,7 @@ const PrivacyPolicy = () => {
           If you have any questions or concerns about this Privacy Policy, you can reach us at:
         </p>
         <br />
-        <p>hello@romevill.com</p>
+        <p>hello@romeville.com</p>
         <p>+91 701-899-6363</p>
       </div>
     </div>
