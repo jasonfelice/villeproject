@@ -3,6 +3,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
+  overflow: hidden;
   height: 100vh;
   background: linear-gradient(225deg, rgba(255,246,216,1) 0%, rgba(139,232,221,1) 12%, rgba(133,201,230,1) 69%);
   background-size: 400% 400%;
